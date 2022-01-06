@@ -80,7 +80,6 @@ function Home() {
  
 
   function navigateDetailsPage(item) {
-    console.log(item.id)
     navigation.navigate('MovieDetails', {id: item.id})
   }
 
